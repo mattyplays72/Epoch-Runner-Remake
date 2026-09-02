@@ -1,0 +1,17 @@
+﻿# Minecraft generated files
+logs/
+crash-reports/
+screenshots/
+
+# Runtime/cache files
+debug/
+cache/
+
+# Java/Minecraft logs
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
