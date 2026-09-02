@@ -1,0 +1,41 @@
+#.
+#The amount of time (in ticks) it takes for the energy mount to cool down
+#Range: > 1
+mountCoolDownTime = 500
+#.
+#The energy capacity of the energy mount
+#Range: > 1
+mountEnergyCapacity = 500000
+#.
+#The amount of time (in ticks) it takes for the energy mount to charge
+#Range: > 1
+mountChargeTime = 20
+#.
+#The energy cost per Railgun Barrel block
+#Range: > 1
+energyCostPerRailBlock = 20000
+#.
+#The energy cost per Coilgun Barrel block
+#Range: > 1
+energyCostPerCoilBlock = 10000
+#.
+#The energy consumption of the laser contraption
+#Range: > 1
+laserPowerConsumption = 500
+#.
+#The range of the laser's beam (in blocks)
+#Range: > 1
+laserRange = 256
+#.
+#The per-hit damage of the laser
+#Range: > 1
+laserDamage = 1
+#.
+#The fire burn time (in seconds) of entities hit by the laser
+#Range: > 1
+laserSecondsOfFire = 2
+#.
+#How long a block takes to break when hit by the beam of the laser
+#Range: > 1
+laserBlockBreakThreshold = 10
+

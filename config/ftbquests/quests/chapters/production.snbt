@@ -1,0 +1,847 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "production"
+	group: ""
+	icon: "immersivepetroleum:distillation_tower"
+	id: "2C677BEF2D8CF55D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "immersiveengineering:block/multiblocks/coke_oven_off"
+				}
+			}
+			id: "7BECEFC637B4260F"
+			rewards: [{
+				count: 16
+				id: "193CBBAF3492813A"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 27L
+				id: "65DD0AB5F1A143D4"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			title: "Coke Oven"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7BECEFC637B4260F"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "immersiveengineering:block/multiblocks/blast_furnace_off"
+				}
+			}
+			id: "1F565381597C95E0"
+			tasks: [{
+				count: 27L
+				id: "4CCC764D6BD75049"
+				item: { Count: 27, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			title: "Blast Furnace"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "immersiveengineering:block/multiblocks/alloy_smelter_off"
+				}
+			}
+			id: "69EA91000B6F3704"
+			tasks: [{
+				count: 8L
+				id: "7F58898F4AFCC407"
+				item: { Count: 8, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			title: "Alloy Kiln"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "6AA77F569831451F"
+			tasks: [{
+				id: "201B83C14CCF14A5"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F565381597C95E0"]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "230790810AE74979"
+			tasks: [
+				{
+					count: 27L
+					id: "550E575FB3F9E0F9"
+					item: { Count: 27, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+				{
+					id: "2F3939E6031D4B62"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5EFFA7482F73ED70"
+					item: { Count: 2, id: "immersiveengineering:blastfurnace_preheater" }
+					type: "item"
+				}
+			]
+			title: "Advanced Blast Furnace"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F565381597C95E0"]
+			icon: "immersiveengineering:metal_press"
+			id: "29331003DCF71422"
+			tasks: [
+				{
+					count: 2L
+					id: "2524A78556D2B928"
+					item: { Count: 2, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "6855A2C7846D01DF"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "790AE5A399854036"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "600A015D0861BA49"
+					item: { Count: 2, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					id: "0203FEC40DD5E8EE"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "1F7A75415262BFC7"
+					item: "immersiveengineering:mold_plate"
+					type: "item"
+				}
+				{
+					id: "108BC16EDD9CA157"
+					item: "immersiveengineering:mold_gear"
+					type: "item"
+				}
+				{
+					id: "7A1C52EF49CCEE7C"
+					item: "immersiveengineering:mold_rod"
+					type: "item"
+				}
+				{
+					id: "755F00FE750E666D"
+					item: "immersiveengineering:mold_bullet_casing"
+					type: "item"
+				}
+				{
+					id: "5AF59BE4D1312884"
+					item: "immersiveengineering:mold_wire"
+					type: "item"
+				}
+				{
+					id: "6EE56A65DADFB587"
+					item: "immersiveengineering:mold_packing_4"
+					type: "item"
+				}
+				{
+					id: "0B6810E6D7AF87E5"
+					item: "immersiveengineering:mold_packing_9"
+					type: "item"
+				}
+				{
+					id: "1B206EBE5647B2C7"
+					item: "immersiveengineering:mold_unpacking"
+					type: "item"
+				}
+			]
+			title: "Metal Press"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F565381597C95E0"]
+			icon: "immersiveengineering:crusher"
+			id: "1A7F202199E2BF69"
+			rewards: [{
+				count: 4
+				id: "197C55C2E60109B0"
+				item: "minecraft:diamond_ore"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "6ABE724EA850A81C"
+					item: { Count: 10, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1F42B7552B4BA823"
+					item: { Count: 10, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "5AF327302E1DF5BD"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6E4A04D565DAEF27"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "02BE82B66991048F"
+					item: { Count: 9, id: "minecraft:hopper" }
+					type: "item"
+				}
+			]
+			title: "Crusher"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F565381597C95E0"]
+			icon: "immersiveengineering:mixer"
+			id: "03D2F8E8668AB600"
+			tasks: [
+				{
+					count: 5L
+					id: "198878525CCDAF20"
+					item: { Count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "03CF8FE17529E2B6"
+					item: { Count: 3, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "3ABEC5FA7E82D0CB"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "556EAE2BEEAD43AD"
+					item: { Count: 4, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1E4908EEBAFB419E"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "06CC2F4AF800ECBB"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+			]
+			title: "Mixer"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F565381597C95E0"]
+			icon: "immersiveengineering:arc_furnace"
+			id: "30C375F8CC18C0C5"
+			rewards: [{
+				count: 3
+				id: "5F46CB60661494DE"
+				item: {
+					Count: 1
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C6CF27703F0CAE8"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "04EDE813CA98831D"
+					item: { Count: 14, id: "immersiveengineering:slab_sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "793A1292EAC0A8D3"
+					item: { Count: 8, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1EA04638BE4098A3"
+					item: { Count: 6, id: "immersiveengineering:storage_steel" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "115C7ADBB3FC78A9"
+					item: { Count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "06F25843D0B5C103"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "629588D05BAF1050"
+					item: { Count: 5, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "373C6C43867D6600"
+					item: { Count: 10, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "2A14FF97470FEA2D"
+					item: { Count: 27, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+			]
+			title: "Arc Furnace"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F565381597C95E0"]
+			icon: "immersiveengineering:excavator"
+			id: "396DB0D40414383A"
+			tasks: [
+				{
+					count: 26L
+					id: "3ED56EAFE4B9BB45"
+					item: { Count: 26, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "22EED10EE415AC56"
+					item: { Count: 15, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "472B179BF9A48AC7"
+					item: { Count: 9, id: "immersiveengineering:storage_steel" }
+					type: "item"
+				}
+				{
+					id: "680B231297B97699"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7EE667DCA47E438E"
+					item: { Count: 9, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "61294F8EF983689A"
+					item: { Count: 5, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "577929997712978E"
+					item: { Count: 3, id: "immersiveengineering:radiator" }
+					type: "item"
+				}
+			]
+			title: "Excavator"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F565381597C95E0"]
+			icon: "immersiveengineering:refinery"
+			id: "7DB2F99910031207"
+			tasks: [
+				{
+					count: 8L
+					id: "25491514DE04BEF6"
+					item: { Count: 8, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "20DFC7777AC0682D"
+					item: { Count: 5, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "150BCF631B94DB1D"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "239F310926A92EDD"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "468FC929AFB48E11"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "256477353BA9CFBA"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+			]
+			title: "Refinery"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F565381597C95E0"]
+			icon: "immersiveengineering:squeezer"
+			id: "2A4E3F95DFE4530F"
+			tasks: [
+				{
+					count: 6L
+					id: "6994416AD54F7EB5"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "31634CEB950F185C"
+					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "619DA55D5E489C44"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3413E600CD817A9B"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C41B24A1718444B"
+					item: { Count: 4, id: "immersiveengineering:wooden_barrel" }
+					type: "item"
+				}
+				{
+					id: "2454ACA61D9CB0F6"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2FBBEF21759321D7"
+					item: { Count: 3, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+			]
+			title: "Industrial Squeezer"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F565381597C95E0"]
+			icon: "immersiveengineering:fermenter"
+			id: "01EC33E27A67F642"
+			tasks: [
+				{
+					count: 6L
+					id: "3F351B9C300311D3"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "174C148CF8F25D42"
+					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "5C0F10A8DD1C9520"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C24DA67F116D5F2"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F9AB67005B16716"
+					item: { Count: 4, id: "minecraft:cauldron" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5A1F7C57A2AF7603"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+			]
+			title: "Industrial Fermenter"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F565381597C95E0"]
+			icon: "crusty_chunks:oil_bucket"
+			id: "4DF6B1ABB2E1A1FF"
+			tasks: [{
+				id: "520FAD65271CDAA9"
+				title: "Oil Processing"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DF6B1ABB2E1A1FF"]
+			icon: "immersivepetroleum:distillation_tower"
+			id: "0C9644E08B0CD57F"
+			tasks: [
+				{
+					count: 25L
+					id: "1DDF45F8F393963C"
+					item: { Count: 25, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "4954B2C9A91F07C7"
+					item: { Count: 30, id: "immersiveengineering:slab_steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "12515799ACC60D3F"
+					item: { Count: 17, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "271DD69559E54826"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4D453B1C0F6FF409"
+					item: { Count: 4, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "0265104F979967E8"
+					item: { Count: 60, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+			]
+			title: "Distillation Tower"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DF6B1ABB2E1A1FF"]
+			id: "0645DC3F4AC243BA"
+			tasks: [{
+				id: "234831D82C6E932A"
+				item: "immersiveengineering:sample_drill"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DF6B1ABB2E1A1FF"]
+			icon: "immersivepetroleum:pumpjack"
+			id: "302D4B62C1A1F068"
+			tasks: [
+				{
+					count: 11L
+					id: "13F011EB3EA8CF12"
+					item: { Count: 11, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "40428CB71E7A97BB"
+					item: { Count: 6, id: "immersiveengineering:treated_fence" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "439537F5B5B5D4F3"
+					item: { Count: 4, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "091C8956337BCBB0"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7FEF3F57897FFF0A"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6711DDE1A38C62CB"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4722F5381AB67B8C"
+					item: { Count: 2, id: "immersiveengineering:storage_steel" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4285C1AA6EB61980"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+			]
+			title: "Pumpjack"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C9644E08B0CD57F"]
+			id: "39ABB27BE80BC032"
+			tasks: [{
+				id: "3912F114B34CA01B"
+				item: "immersivepetroleum:auto_lubricator"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "500ED33374F8DCA2"
+			tasks: [{
+				id: "37E7FF6EF0E837AD"
+				item: "nuclearcraft:manufactory"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "6A4F03953F4DB099"
+			tasks: [{
+				id: "7A7AC8484FC948E1"
+				item: "nuclearcraft:centrifuge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "76B5B3DE498C444D"
+			tasks: [{
+				id: "388333B9408BEAD0"
+				item: "nuclearcraft:rock_crusher"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "7162CE3071B28670"
+			tasks: [{
+				id: "04C9F7628A1F2644"
+				item: "nuclearcraft:crystallizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "3B26DB62D934B094"
+			tasks: [{
+				id: "0955220F539289F6"
+				item: "nuclearcraft:chemical_reactor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "2BFFC6EAF90A82B9"
+			tasks: [{
+				id: "2B4D21AA33B15243"
+				item: "nuclearcraft:pressurizer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "61C0820813C12214"
+			tasks: [{
+				id: "4F1DA5904CFBD81E"
+				item: "nuclearcraft:ingot_former"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "1B0C025EC004BA3C"
+			tasks: [{
+				id: "6DB41EF2C8AB84B8"
+				item: "nuclearcraft:alloy_smelter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "24E1C306F019F7B6"
+			tasks: [{
+				id: "700FF21F1C547BBF"
+				item: "nuclearcraft:melter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "510D66458E0E5C59"
+			tasks: [{
+				id: "1DA88F7F9E6F898D"
+				item: "nuclearcraft:fluid_infuser"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "15586C5A8ACB99C3"
+			tasks: [{
+				id: "094C971B83A486C1"
+				item: "nuclearcraft:fuel_reprocessor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "6986047F2AD17E74"
+			tasks: [{
+				id: "31EBB780BFED1DEA"
+				item: "nuclearcraft:nuclear_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "79B99EE01834EE35"
+			tasks: [{
+				id: "2B5A7CC8C1EC7D7C"
+				item: "nuclearcraft:decay_hastener"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63E55CD67EF15BFA"]
+			id: "177B8B5840379BCF"
+			tasks: [{
+				id: "27EACB851EE39838"
+				item: "nuclearcraft:supercooler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02099734CFEEED4B"]
+			icon: "nuclearcraft:plate_basic"
+			id: "63E55CD67EF15BFA"
+			tasks: [{
+				id: "3AE1A6FE50F8F847"
+				title: "Nuclearcraft Machines"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+	title: "Production"
+}

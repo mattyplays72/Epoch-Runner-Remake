@@ -1,0 +1,16 @@
+filename = 'sereneseasonsphc2crops-1.20.1-1.0.0.jar'
+name = "Serene Seasons - Pam's HarvestCraft 2: Crops Compat"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '830eacb66ba2439561beeb041350d72195b42aaa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5075306
+project-id = 549716

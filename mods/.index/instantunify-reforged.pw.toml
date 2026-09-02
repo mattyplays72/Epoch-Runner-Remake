@@ -1,0 +1,17 @@
+filename = 'instantunify-1.0.0-1.20.1.jar'
+name = 'InstantUnify Reforged'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'instantunify-1.0.0-1.20.1.jar'
+
+[download]
+hash = 'fc405e7e72aa0dec3621186d566445dcc486af33'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6894968
+project-id = 1328845

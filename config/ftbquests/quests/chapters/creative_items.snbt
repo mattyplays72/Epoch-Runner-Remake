@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative_items"
+	group: ""
+	id: "28E347C66B16F7B6"
+	order_index: 13
+	quest_links: [ ]
+	quests: [ ]
+	title: "Creative Items"
+}

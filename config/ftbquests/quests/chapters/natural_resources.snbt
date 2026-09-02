@@ -1,0 +1,488 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natural_resources"
+	group: ""
+	icon: "minecraft:iron_ingot"
+	id: "7D16C8CE9DB05DA7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:gold_ore"
+			id: "262A1422966A22F5"
+			tasks: [{
+				id: "62CC6F393182C15E"
+				title: "Precious Metals"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["262A1422966A22F5"]
+			id: "430DDDC23358839B"
+			tasks: [{
+				id: "24F3A6B3F8BC787B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["262A1422966A22F5"]
+			id: "299ABC0132A32F9D"
+			tasks: [{
+				id: "2207E4A9059E7B0C"
+				item: "nuclearcraft:iridium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["262A1422966A22F5"]
+			id: "43F09FD9601235FA"
+			tasks: [{
+				id: "12E343FE6B080D91"
+				item: "immersiveengineering:ingot_silver"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["262A1422966A22F5"]
+			id: "3D89125914A163A2"
+			tasks: [{
+				id: "3CFF23117E1C2FBF"
+				item: "nuclearcraft:platinum_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["262A1422966A22F5"]
+			id: "724A7A0F1B800047"
+			tasks: [{
+				id: "2FC01D0BF37036B6"
+				item: "nuclearcraft:titanium_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			icon: "minecraft:lapis_ore"
+			id: "34F8A9A607807D14"
+			tasks: [{
+				id: "33B3F9E2C398A2CD"
+				title: "Misc."
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34F8A9A607807D14"]
+			id: "34D62FBBCD571D52"
+			tasks: [{
+				id: "5B44C04C6783FA3B"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34F8A9A607807D14"]
+			id: "17CD488133EAFDDE"
+			tasks: [{
+				id: "0F7ED876F05681CF"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34F8A9A607807D14"]
+			id: "0C5F32EC29F758B5"
+			tasks: [{
+				id: "5979F8DF4AF241FC"
+				item: "thermal:cinnabar"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34F8A9A607807D14"]
+			id: "6ACF3C9D170C16D6"
+			tasks: [{
+				id: "703C9325F59A0599"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34F8A9A607807D14"]
+			id: "6CD7BB29B80AEA0E"
+			tasks: [{
+				id: "7631A83EC185A650"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			icon: "minecraft:iron_ore"
+			id: "58CD5DB62499E6C0"
+			tasks: [{
+				id: "31019192D7A0BDCF"
+				title: "Common Metals"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58CD5DB62499E6C0"]
+			id: "5DB300956BCA935D"
+			tasks: [{
+				id: "2A5061C3AC6CF786"
+				item: "nuclearcraft:tungsten_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58CD5DB62499E6C0"]
+			id: "7DF01BF3E4759848"
+			tasks: [{
+				id: "1D7D954C0FEA09D3"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58CD5DB62499E6C0"]
+			id: "4873EB223B04AAC0"
+			tasks: [{
+				id: "2CAD50F42BD1E43B"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58CD5DB62499E6C0"]
+			id: "5A53065C87F8C576"
+			tasks: [{
+				id: "1C8BC50C39F481BD"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58CD5DB62499E6C0"]
+			id: "4DBBFFE691F4BF6C"
+			tasks: [{
+				id: "344F2F855919C474"
+				item: "immersiveengineering:ingot_lead"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58CD5DB62499E6C0"]
+			id: "3D96329292C586DF"
+			tasks: [{
+				id: "74B1A6638F9838BA"
+				item: "immersiveengineering:ingot_nickel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58CD5DB62499E6C0"]
+			id: "5459C639D48BFAE6"
+			tasks: [{
+				id: "6DD97DC51AB662C0"
+				item: "immersiveengineering:ingot_aluminum"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58CD5DB62499E6C0"]
+			id: "51D735C54A6632C6"
+			tasks: [{
+				id: "48E5DF4DD9536CDD"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58CD5DB62499E6C0"]
+			id: "7F40BDE974288B70"
+			tasks: [{
+				id: "4FA6B4C02A260985"
+				item: "nuclearcraft:boron_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58CD5DB62499E6C0"]
+			id: "286A7F1E48F92F98"
+			tasks: [{
+				id: "1CAB016C855E6811"
+				item: "nuclearcraft:lithium_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["58CD5DB62499E6C0"]
+			id: "510CEA52C63FA882"
+			tasks: [{
+				id: "7A36467F14B59C5B"
+				item: "nuclearcraft:magnesium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			icon: "draconicevolution:overworld_draconium_ore"
+			id: "628895D8C4FC30C4"
+			tasks: [{
+				id: "6B1471D6F0375BE5"
+				title: "Exotic Metals"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["628895D8C4FC30C4"]
+			id: "659091B3D59C9BA6"
+			tasks: [{
+				id: "41C11AEE1D12F629"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["628895D8C4FC30C4"]
+			id: "107B02BB9B987033"
+			tasks: [{
+				id: "4FB42E7E3C693796"
+				item: "immersiveengineering:ingot_uranium"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["628895D8C4FC30C4"]
+			id: "0C67AEDDDE1B4374"
+			tasks: [{
+				id: "5058A95BC5F03944"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["628895D8C4FC30C4"]
+			id: "1036F24076C186D6"
+			tasks: [{
+				id: "0CD57250C432CE73"
+				item: "nuclearcraft:thorium_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["628895D8C4FC30C4"]
+			id: "64E0C4A777741EC0"
+			tasks: [{
+				id: "35322F8179E072E3"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["628895D8C4FC30C4"]
+			id: "3040D7932BA6754B"
+			tasks: [{
+				id: "00E1926C6B1BFF23"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["628895D8C4FC30C4"]
+			id: "6B4351CFDC9F5AA4"
+			tasks: [{
+				id: "3A47C56E7B03B9B9"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["628895D8C4FC30C4"]
+			id: "381B057125A906FD"
+			tasks: [{
+				id: "143BD3B3CD8CC6C8"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["628895D8C4FC30C4"]
+			id: "55A58C65811F7789"
+			tasks: [{
+				id: "4F2AFC252FC42632"
+				item: "extrabotany:orichalcos_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["628895D8C4FC30C4"]
+			id: "33A41074C87937C5"
+			tasks: [{
+				id: "4D69039078E057C7"
+				item: "extrabotany:aerialite_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A2D09CB63C054D2"]
+			id: "7077F62F3B6CF5F9"
+			tasks: [{
+				id: "7A3B5FFC216DD8CA"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A2D09CB63C054D2"]
+			id: "63C12AD9A20F5F7D"
+			tasks: [{
+				id: "7291DA8672B2174A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A2D09CB63C054D2"]
+			id: "3E7019D648D21F94"
+			tasks: [{
+				id: "354363B04126627A"
+				item: "thermal:ruby"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A2D09CB63C054D2"]
+			id: "32077BB5453200E2"
+			tasks: [{
+				id: "2DDDF96FA8F53343"
+				item: "thermal:sapphire"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			icon: "minecraft:diamond_ore"
+			id: "0A2D09CB63C054D2"
+			tasks: [{
+				id: "3B9034B0B476E479"
+				title: "Gems"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "7870AAA7FC33D8C0"
+			tasks: [{
+				id: "38151E83EC8B7185"
+				item: "immersivepetroleum:crudeoil_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "5D768AE8B8EE0495"
+			tasks: [{
+				id: "5A68D24DA2B3EF8A"
+				item: "immersivepetroleum:petroleum_gas_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "7E8F78C71C619330"
+			rewards: [{
+				id: "09F010E5E27C757B"
+				item: "nuclearcraft:radaway"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24B195335615F83C"
+				item: "nuclearcraft:glowing_mushroom"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+	]
+	title: "Natural Resources"
+}

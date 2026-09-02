@@ -1,0 +1,856 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "manufactured_resources"
+	group: ""
+	icon: "immersiveengineering:logic_circuit"
+	id: "1CA11E5AA3D7B7F0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "745585450BCF7D7D"
+			rewards: [{
+				count: 8
+				id: "2B2E0E34674C5954"
+				item: "railcraft:saltpeter_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68A26EBED4B1E7FA"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "313C5F59462BAFEE"
+			tasks: [{
+				id: "561BBB3BB66DAD9F"
+				item: "immersiveengineering:dust_sulfur"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "0029117D5890D0EA"
+			tasks: [{
+				id: "1DA780A8597C30B7"
+				item: "thermal:niter_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["745585450BCF7D7D"]
+			icon: "cookingforblockheads:purple_kitchen_floor"
+			id: "18EF05747A1BD24A"
+			tasks: [{
+				id: "03C8562EBB27887F"
+				title: "TGX"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["745585450BCF7D7D"]
+			id: "532DAA558188EAB5"
+			tasks: [{
+				id: "556693C1A3C7C54C"
+				item: "immersiveengineering:gunpowder_barrel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"313C5F59462BAFEE"
+				"03D2F8E8668AB600"
+			]
+			id: "4632E3F32FB97F22"
+			tasks: [{
+				id: "0237EE1EED9D84DE"
+				item: "nuclearcraft:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0029117D5890D0EA"
+				"4632E3F32FB97F22"
+			]
+			id: "73542C0275D6F838"
+			tasks: [{
+				id: "791959BE33254137"
+				item: "nuclearcraft:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"242EC154454E42B6"
+				"73542C0275D6F838"
+			]
+			id: "55114E64B9CC1678"
+			tasks: [{
+				id: "3603E0A5879E2102"
+				item: "nuclearcraft:nitrogen_dioxide_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72F8A4EC3DC68F9C"]
+			id: "242EC154454E42B6"
+			tasks: [{
+				id: "5D41A4879B546BB3"
+				item: "nuclearcraft:nitric_oxide_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "72F8A4EC3DC68F9C"
+			tasks: [{
+				id: "30CA1DCACC42574F"
+				item: "nuclearcraft:oxygen_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			icon: "cookingforblockheads:purple_kitchen_floor"
+			id: "1803789CF529457B"
+			tasks: [{
+				id: "1CAE991B317E47E7"
+				title: "Witherite"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"73542C0275D6F838"
+				"1803789CF529457B"
+			]
+			icon: "cookingforblockheads:purple_kitchen_floor"
+			id: "6F079E54888161BC"
+			tasks: [{
+				id: "41582D31AFAE5E83"
+				title: "Witherite"
+				type: "checkmark"
+			}]
+			title: "Barium Nitrate"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F079E54888161BC"]
+			icon: "cookingforblockheads:purple_kitchen_floor"
+			id: "6CEE32DA12232CEC"
+			tasks: [{
+				id: "642C55C2E8FFD078"
+				title: "Witherite"
+				type: "checkmark"
+			}]
+			title: "Baratol"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6CEE32DA12232CEC"]
+			icon: "cookingforblockheads:purple_kitchen_floor"
+			id: "23D6A00E5BE698AF"
+			tasks: [{
+				id: "672A5C12A8820EFD"
+				title: "Witherite"
+				type: "checkmark"
+			}]
+			title: "Compression Charge"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			icon: "cookingforblockheads:purple_kitchen_floor"
+			id: "2EBF870A2C6B48C2"
+			tasks: [{
+				id: "4967EF69A26C0E5B"
+				title: "Witherite"
+				type: "checkmark"
+			}]
+			title: "Subcritical Sphere"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E8F78C71C619330"]
+			id: "148A9DAFB7908AAC"
+			tasks: [{
+				id: "4CC1B7AA889257E1"
+				item: "nuclearcraft:radaway"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["02099734CFEEED4B"]
+			id: "19DA047CE2DE3F3D"
+			tasks: [{
+				id: "7E87E79BF37F8DD0"
+				item: "nuclearcraft:geiger_counter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			id: "76D19883A2D9487F"
+			tasks: [{
+				id: "501D6A33C2A457C9"
+				item: "nuclearcraft:fluorite_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"76D19883A2D9487F"
+				"4632E3F32FB97F22"
+				"3B26DB62D934B094"
+			]
+			id: "6CD8D7D1D7011D3C"
+			tasks: [{
+				id: "215DFB800FFF1A3B"
+				item: "nuclearcraft:calcium_sulfate_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			id: "3C6790C13CE04E66"
+			tasks: [{
+				id: "288EFD6BB43B0EED"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["76B5B3DE498C444D"]
+			id: "7FB4CA117002CA81"
+			tasks: [{
+				id: "5A57948A4365F91B"
+				item: "nuclearcraft:rhodochrosite_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"7FB4CA117002CA81"
+				"3C6790C13CE04E66"
+				"6CD8D7D1D7011D3C"
+				"510CEA52C63FA882"
+			]
+			id: "6223EDC5D723EF91"
+			tasks: [{
+				id: "1960965054962A69"
+				item: "nuclearcraft:crystal_binder_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1398EE8AD7865BC1"]
+			id: "0E7A688831777EC1"
+			tasks: [{
+				id: "5DF66D686E852E8D"
+				item: "nuclearcraft:upgrade_energy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1398EE8AD7865BC1"]
+			id: "7CA7A490C6F7222D"
+			tasks: [{
+				id: "0F22CC62B76BA1E5"
+				item: "nuclearcraft:upgrade_speed"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["302D4B62C1A1F068"]
+			id: "1398EE8AD7865BC1"
+			tasks: [{
+				id: "0EC16C31CE921914"
+				item: "mts:mtsofficialpack.plastic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"54FDCCD6473E4942"
+				"1398EE8AD7865BC1"
+			]
+			id: "3DC5416573DEBA46"
+			tasks: [{
+				id: "285D323B2F29D7D4"
+				item: "nuclearcraft:plate_advanced"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["48679DEA5A02ADF4"]
+			id: "54FDCCD6473E4942"
+			tasks: [{
+				id: "53F23DE9211DF4A3"
+				item: "nuclearcraft:plate_basic"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3DC5416573DEBA46"]
+			id: "6FE14C62D206A3FE"
+			tasks: [{
+				id: "691824B7DF025E91"
+				item: "nuclearcraft:plate_du"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6FE14C62D206A3FE"
+				"6223EDC5D723EF91"
+			]
+			id: "6779730DD787E99C"
+			tasks: [{
+				id: "6BD687BB524E93C8"
+				item: "nuclearcraft:plate_elite"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["500ED33374F8DCA2"]
+			id: "48679DEA5A02ADF4"
+			tasks: [{
+				id: "66A84C9F746B2374"
+				item: "nuclearcraft:graphite_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B0C025EC004BA3C"]
+			id: "2ED4062B65D9D5CF"
+			tasks: [{
+				id: "74D6275916AA74E2"
+				item: "nuclearcraft:lithium_manganese_dioxide_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2ED4062B65D9D5CF"
+				"28A69BDFEF362CE6"
+				"286A7F1E48F92F98"
+			]
+			id: "253C8CD7ABC7A45C"
+			tasks: [{
+				id: "46C4EE4A5437A1AC"
+				item: {
+					Count: 1
+					id: "nuclearcraft:lithium_ion_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"48679DEA5A02ADF4"
+				"1B0C025EC004BA3C"
+			]
+			id: "28A69BDFEF362CE6"
+			tasks: [{
+				id: "6FDF26310849CCED"
+				item: "nuclearcraft:hard_carbon_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02099734CFEEED4B"]
+			id: "4F277351598700F9"
+			tasks: [{
+				id: "515BA59B41178AD9"
+				item: "nuclearcraft:light"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"54FDCCD6473E4942"
+				"4F277351598700F9"
+			]
+			id: "48FD61900F9F3A42"
+			tasks: [{
+				id: "11F622BCCCD1500D"
+				item: "nuclearcraft:medium"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"6FE14C62D206A3FE"
+				"48FD61900F9F3A42"
+			]
+			id: "1408C8D87588BFB4"
+			tasks: [{
+				id: "3A5954D5A4FA4E5F"
+				item: "nuclearcraft:heavy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"622CE6C64607BFF4"
+				"624C1BB5DC719194"
+				"6779730DD787E99C"
+			]
+			id: "093EC45DADBB7B21"
+			tasks: [{
+				id: "785F900E0EFCDE1A"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"139F71A15C6C9F1C"
+				"093EC45DADBB7B21"
+			]
+			id: "01B52DC7334C7A10"
+			tasks: [{
+				id: "78215110598A2410"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"395242532F09FFBA"
+				"01B52DC7334C7A10"
+			]
+			id: "320858FE1DC724BA"
+			tasks: [{
+				id: "1CBEB51360BC1317"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3C576EF39C3CB136"]
+			id: "624C1BB5DC719194"
+			tasks: [{
+				id: "52314AE1396CA423"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3BBB9314600AD478"
+				"03EFA5E8DE591197"
+			]
+			id: "139F71A15C6C9F1C"
+			tasks: [{
+				id: "2D9AF300A2D5A6F6"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"19D90B2A52508DA4"
+				"291EE9626AE694B7"
+				"3BBB9314600AD478"
+			]
+			id: "395242532F09FFBA"
+			tasks: [{
+				id: "24A3F5F1CA456D2B"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"395242532F09FFBA"
+				"072D297A1BC83AF7"
+			]
+			id: "513061B5691DC0E4"
+			tasks: [{
+				id: "2C2FD16DE372823C"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["291EE9626AE694B7"]
+			id: "072D297A1BC83AF7"
+			tasks: [{
+				id: "21D1A2B707440816"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C20330E70F26C9C"]
+			id: "291EE9626AE694B7"
+			tasks: [{
+				id: "30C21928080C437C"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "0C20330E70F26C9C"
+			tasks: [{
+				id: "0C070D37C62BCF35"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5106C5AF7D977165"]
+			id: "3C576EF39C3CB136"
+			tasks: [{
+				id: "1AE0511D8319EAFA"
+				item: "immersiveengineering:logic_circuit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5106C5AF7D977165"
+				"02099734CFEEED4B"
+			]
+			icon: "cookingforblockheads:purple_kitchen_floor"
+			id: "03EFA5E8DE591197"
+			tasks: [{
+				id: "5EBB0EAC8E30C168"
+				title: "Witherite"
+				type: "checkmark"
+			}]
+			title: "Advanced Circuit"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5106C5AF7D977165"
+				"02099734CFEEED4B"
+			]
+			icon: "cookingforblockheads:purple_kitchen_floor"
+			id: "19D90B2A52508DA4"
+			tasks: [{
+				id: "0C9741FAFDA84120"
+				title: "Witherite"
+				type: "checkmark"
+			}]
+			title: "Processor Circuit"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			id: "5106C5AF7D977165"
+			tasks: [{
+				id: "3CF6DF1338C50A03"
+				item: "immersiveengineering:circuit_board"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"120EDAB636E276DC"
+				"36C9A8A9AECDC53B"
+				"02099734CFEEED4B"
+			]
+			id: "5DEDE70A908440C9"
+			tasks: [{
+				id: "4BD6B6C7DB717098"
+				item: "nuclearcraft:steel_frame"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4873EB223B04AAC0"
+				"5A53065C87F8C576"
+			]
+			id: "120EDAB636E276DC"
+			tasks: [{
+				id: "012ACFF002E0815A"
+				item: "thermal:bronze_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1FD2067770AC2331"
+				"02099734CFEEED4B"
+				"7F40BDE974288B70"
+			]
+			id: "112A3BB885706BBA"
+			tasks: [{
+				id: "3315BF009EF56D71"
+				item: "nuclearcraft:ferroboron_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"112A3BB885706BBA"
+				"286A7F1E48F92F98"
+			]
+			id: "36C9A8A9AECDC53B"
+			tasks: [{
+				id: "68EBC5A885756212"
+				item: "nuclearcraft:tough_alloy_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F565381597C95E0"]
+			id: "1FD2067770AC2331"
+			tasks: [{
+				id: "4529189C83BBDF47"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FD2067770AC2331"]
+			icon: "cookingforblockheads:purple_kitchen_floor"
+			id: "224C6F14D040C9C5"
+			tasks: [{
+				id: "361F28C011742F47"
+				title: "Machine Parts"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FD2067770AC2331"]
+			icon: "immersiveengineering:plate_steel"
+			id: "7983B47BBA9FB699"
+			tasks: [
+				{
+					id: "1A5A90EA28B8DF9A"
+					item: "immersiveengineering:plate_steel"
+					type: "item"
+				}
+				{
+					id: "2F24D5482ED18576"
+					item: "immersiveengineering:plate_copper"
+					type: "item"
+				}
+				{
+					id: "7A0E0D3D21798665"
+					item: "immersiveengineering:plate_iron"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FD2067770AC2331"]
+			icon: "thermal:iron_gear"
+			id: "751209D0819716F7"
+			tasks: [
+				{
+					id: "1A9295B6B92A46B0"
+					item: "thermal:copper_gear"
+					type: "item"
+				}
+				{
+					id: "687DBA87279A0EF8"
+					item: "thermal:iron_gear"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["36C9A8A9AECDC53B"]
+			id: "1442C9E0A8590738"
+			tasks: [{
+				id: "03D22EBB42C0CAE1"
+				item: "nuclearcraft:extreme_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["36C9A8A9AECDC53B"]
+			id: "7D35D9BB1E2D609A"
+			tasks: [{
+				id: "475B9D2E8378995A"
+				item: "nuclearcraft:chassis"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B0C025EC004BA3C"]
+			id: "4A65A835943BE546"
+			tasks: [{
+				id: "412A84C3FD616C0C"
+				item: "nuclearcraft:zircaloy_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B0C025EC004BA3C"]
+			id: "0AEAFFA3BB33866A"
+			tasks: [{
+				id: "00C6879A2085FEA3"
+				item: "nuclearcraft:hsla_steel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1442C9E0A8590738"]
+			id: "07443E0E78AE9372"
+			tasks: [{
+				id: "6A41328DE5D5445C"
+				item: "nuclearcraft:thermoconducting_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["553E04AF046A1485"]
+			id: "3947D2E28246E9D0"
+			tasks: [{
+				id: "18C692E4B192AE63"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C5B71238ADE19BD"]
+			icon: "cookingforblockheads:purple_kitchen_floor"
+			id: "553E04AF046A1485"
+			tasks: [{
+				id: "056DD152AAEE3BAF"
+				title: "Machine Parts"
+				type: "checkmark"
+			}]
+			title: "Duraluminum Plate"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "2C5B71238ADE19BD"
+			tasks: [{
+				id: "188FEC49E494DF18"
+				item: "enderio:silicon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	title: "Manufactured Resources"
+}

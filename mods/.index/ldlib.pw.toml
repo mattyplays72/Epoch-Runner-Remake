@@ -1,0 +1,17 @@
+filename = 'ldlib-forge-1.20.1-1.0.50.jar'
+name = 'LowDragLib'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mc1.20.1-1.0.50-forge'
+
+[download]
+hash = '1e4ff4a52604186874c1c53d7e8e905a7ef27b440e2554639b9d2fe3b0bc8c1552bb47e1c8352f87f5a04203820d24678bb71e4a004bcbb4236115e153f4a265'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/B1CBVXHX/versions/CIHXdHUw/ldlib-forge-1.20.1-1.0.50.jar'
+
+[update.modrinth]
+mod-id = 'B1CBVXHX'
+version = 'CIHXdHUw'

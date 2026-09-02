@@ -1,0 +1,29 @@
+filename = 'JustEnoughGuns-0.14.4-1.20.1.jar'
+name = 'Just Enough Guns'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'JEG 0.14.4 | Supply Drops & More! | 1.20.1'
+
+[download]
+hash = 'd98d6ffdc7dfa3d72dc7abb1d1a9db9c00ebc6b9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8552239
+project-id = 820727
+
+[[x-prismlauncher-dependencies]]
+addonId = '549225'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '978748'
+type = 'OPTIONAL'

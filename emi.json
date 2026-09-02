@@ -1,0 +1,393 @@
+{
+  "favorites": [
+    {
+      "stack": "item:createbigcannons:filled_autocannon_cartridge"
+    },
+    {
+      "stack": "item:createbigcannons:flak_autocannon_round"
+    },
+    {
+      "stack": "item:extendedcrafting:basic_component"
+    },
+    {
+      "stack": "item:extendedcrafting:black_iron_slate"
+    },
+    {
+      "stack": "item:extendedcrafting:basic_catalyst"
+    },
+    {
+      "stack": "item:crusty_chunks:steelplate"
+    },
+    {
+      "stack": "item:railcraft:steel_plate"
+    },
+    {
+      "stack": "item:nuclearcraft:steel_plate"
+    },
+    {
+      "stack": "item:extendedcrafting:advanced_component"
+    },
+    {
+      "stack": "item:extendedcrafting:black_iron_ingot",
+      "recipe": "extendedcrafting:black_iron_ingot"
+    },
+    {
+      "stack": "item:projecte:dark_matter"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "immersiveengineering:radiator",
+        "amount": 64
+      }
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "immersiveengineering:generator",
+        "amount": 64
+      }
+    },
+    {
+      "stack": "item:nuclearcraft:steel_ingot"
+    },
+    {
+      "stack": "item:mekanism:ingot_steel"
+    },
+    {
+      "stack": "item:railcraft:steel_ingot"
+    },
+    {
+      "stack": "item:createbigcannons:steel_ingot"
+    },
+    {
+      "stack": "item:crusty_chunks:steel_ingot"
+    },
+    {
+      "stack": "item:nuclearcraft:rock_crusher"
+    },
+    {
+      "stack": "item:nuclearcraft:electrolyzer"
+    },
+    {
+      "stack": "item:nuclearcraft:pressurizer"
+    },
+    {
+      "stack": "item:nuclearcraft:fuel_reprocessor"
+    },
+    {
+      "stack": "item:nuclearcraft:crystallizer"
+    }
+  ],
+  "lookup_history": [
+    "item:nuclearcraft:research_paper{Damage:0}",
+    "item:nuclearcraft:evenmoresmore",
+    {
+      "type": "item",
+      "id": "nuclearcraft:silicon_carbide_ingot",
+      "amount": 3
+    },
+    "item:nuclearcraft:silicon_boule",
+    "item:nuclearcraft:servo",
+    "item:nuclearcraft:coil_copper",
+    "item:nuclearcraft:crystallizer",
+    "item:nuclearcraft:pressurizer",
+    "item:nuclearcraft:electrolyzer",
+    "item:nuclearcraft:extractor",
+    "item:nuclearcraft:decay_hastener",
+    "item:immersiveengineering:diesel_generator",
+    {
+      "type": "fluid",
+      "id": "immersivepetroleum:diesel",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "immersivepetroleum:diesel_sulfur",
+      "amount": 30
+    },
+    {
+      "type": "fluid",
+      "id": "immersivepetroleum:naphtha",
+      "amount": 1500
+    },
+    {
+      "type": "fluid",
+      "id": "immersivepetroleum:petroleum_gas",
+      "amount": 0
+    },
+    "item:immersiveengineering:ingot_steel",
+    "item:nuclearcraft:stainless_steel_ingot",
+    "item:nuclearcraft:steel_ingot",
+    "item:railcraft:steel_ingot",
+    "item:immersiveengineering:dust_steel",
+    "item:nuclearcraft:steel_dust",
+    "#item:forge:dusts/steel",
+    "item:createbigcannons:steel_ingot",
+    "#item:forge:ingots/steel",
+    "fluid:nuclearcraft:steel",
+    "fluid:createbigcannons:molten_steel",
+    {
+      "type": "tag",
+      "registry": "minecraft:fluid",
+      "id": "forge:molten_steel",
+      "amount": 90
+    },
+    "item:crusty_chunks:steel_ingot",
+    "item:mekanism:ingot_steel",
+    "item:enderio:silicon",
+    "item:railcraft:zinc_ore",
+    "item:nuclearcraft:chromium_dust",
+    "item:nuclearcraft:chromium_ingot",
+    "item:nuclearcraft:basic_barrel",
+    {
+      "type": "item",
+      "id": "immersiveengineering:generator",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "immersiveengineering:radiator",
+      "amount": 64
+    },
+    "item:immersiveengineering:toolupgrade_powerpack_magnet",
+    {
+      "type": "item",
+      "id": "immersiveengineering:light_engineering",
+      "amount": 62
+    },
+    "item:botania:rune_lust",
+    {
+      "type": "item",
+      "id": "immersiveengineering:heavy_engineering",
+      "amount": 64
+    },
+    "item:nuclearcraft:tin_plate",
+    "#item:forge:ingots/tin",
+    {
+      "type": "item",
+      "id": "thermal:tin_plate",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "immersiveengineering:rs_engineering",
+      "amount": 56
+    },
+    "item:immersiveengineering:plate_gold",
+    "item:immersiveengineering:mold_plate",
+    "item:railcraft:tin_plate",
+    "item:mts:mtsofficialpack.armorplate",
+    "item:enderio:end_steel_ingot",
+    {
+      "type": "item",
+      "id": "minecraft:piston",
+      "amount": 64
+    },
+    "item:mysticalagradditions:insanium_block",
+    "item:mysticalagradditions:insanium_essence",
+    "item:projecte:dark_matter",
+    {
+      "type": "item",
+      "id": "enderio:dark_steel_ingot",
+      "amount": 60
+    },
+    "item:enderio:energy_conduit",
+    "item:nuclearcraft:americium_243",
+    {
+      "type": "item",
+      "id": "nuclearcraft:fuel_americium_lea_242",
+      "amount": 9
+    },
+    "item:nuclearcraft:fuel_americium_lea_242_tr",
+    "item:nuclearcraft:depleted_fuel_americium_lea_242_tr",
+    "item:nuclearcraft:depleted_fuel_americium_lea_242",
+    "item:nuclearcraft:curium_243",
+    "item:nuclearcraft:platinum_deepslate_ore",
+    "item:nuclearcraft:platinum_ingot",
+    "item:nuclearcraft:titanium_dust",
+    "item:immersiveengineering:armor_faraday_boots{Damage:0}",
+    "#item:forge:ingots/uranium",
+    "item:immersiveengineering:ingot_uranium",
+    {
+      "type": "item",
+      "id": "immersiveengineering:raw_uranium",
+      "amount": 9
+    },
+    "item:immersiveengineering:raw_block_uranium",
+    "item:immersiveengineering:circuit_board",
+    "item:nuclearcraft:titanium_ingot",
+    "item:nuclearcraft:niobium_titanium_ingot",
+    "item:immersivepetroleum:crudeoil_bucket",
+    {
+      "type": "item",
+      "id": "extendedcrafting:advanced_component",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "minecraft:basalt",
+      "amount": 7
+    },
+    "item:nuclearcraft:tungsten_dust",
+    "item:nuclearcraft:tungsten_ingot",
+    "item:extendedcrafting:black_iron_ingot",
+    "item:extendedcrafting:luminessence",
+    "item:extendedcrafting:basic_component",
+    {
+      "type": "item",
+      "id": "extendedcrafting:basic_table",
+      "amount": 64
+    },
+    "item:extendedcrafting:advanced_table",
+    "item:crusty_chunks:steel_component",
+    {
+      "type": "tag",
+      "registry": "minecraft:item",
+      "id": "forge:plates/steel",
+      "amount": 2
+    },
+    "item:immersiveengineering:component_steel",
+    {
+      "type": "item",
+      "id": "extendedcrafting:basic_catalyst",
+      "amount": 64
+    },
+    "item:extendedcrafting:basic_auto_table",
+    "item:minecraft:gray_candle",
+    {
+      "type": "item",
+      "id": "minecraft:oak_planks",
+      "amount": 4
+    },
+    "item:notreepunching:gold_saw{Damage:0}",
+    "item:minecraft:stone_pickaxe{Damage:0}",
+    "item:minecraft:iron_pickaxe{Damage:0}",
+    "item:minecraft:wooden_pickaxe{Damage:0}",
+    "item:nuclearcraft:plate_advanced",
+    "item:enderio:void_chassis",
+    "item:enderio:sag_mill",
+    {
+      "type": "fluid",
+      "id": "crusty_chunks:kerosene",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "immersivepetroleum:kerosene",
+      "amount": 0
+    },
+    "item:immersiveengineering:transformer_hv",
+    {
+      "type": "fluid",
+      "id": "nuclearcraft:oxygen_difluoride",
+      "amount": 250
+    },
+    {
+      "type": "fluid",
+      "id": "nuclearcraft:liquid_oxygen",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "immersiveengineering:acetaldehyde",
+      "amount": 12
+    },
+    {
+      "type": "fluid",
+      "id": "immersiveengineering:phenolic_resin",
+      "amount": 250
+    },
+    "item:immersiveengineering:plate_duroplast",
+    "item:immersiveengineering:component_electronic_adv",
+    "item:immersiveengineering:component_electronic",
+    "item:immersiveengineering:workbench",
+    "item:immersiveengineering:connector_structural",
+    "item:immersiveengineering:alu_slope",
+    "item:immersiveengineering:steel_slope",
+    "item:immersiveengineering:breaker_switch",
+    "item:immersiveengineering:capacitor_hv",
+    "item:immersiveengineering:capacitor_mv",
+    "item:immersiveengineering:charging_station",
+    "item:immersiveengineering:electric_lantern",
+    "item:immersiveengineering:razor_wire",
+    {
+      "type": "item",
+      "id": "mbd2:gas_centrifuge",
+      "amount": 64
+    },
+    "item:mbd2:ammo_press",
+    "item:mbd2:new_machine",
+    "item:mbd2:mbd_gadgets",
+    "item:immersivepetroleum:derrick",
+    "item:immersiveengineering:manual",
+    "item:immersiveengineering:fluid_placer",
+    {
+      "type": "item",
+      "id": "immersivepetroleum:flarestack",
+      "amount": 64
+    },
+    {
+      "type": "tag",
+      "registry": "minecraft:fluid",
+      "id": "forge:diesel",
+      "amount": 7
+    },
+    {
+      "type": "fluid",
+      "id": "immersivepetroleum:lubricant",
+      "amount": 2000
+    },
+    "item:immersivepetroleum:hydrotreater",
+    "item:immersivepetroleum:coker_unit",
+    "item:immersiveengineering:metal_press",
+    "item:nuclearcraft:lithium_manganese_dioxide_plate",
+    "item:nuclearcraft:lithium_ion_cell",
+    "item:crusty_chunks:assembly_mechanical_fabricator",
+    "item:create_radar:target_filter_item",
+    "item:create_radar:radar_filter_item",
+    "item:createbigcannons:autocannon_cartridge",
+    {
+      "type": "item",
+      "id": "createbigcannons:filled_autocannon_cartridge",
+      "amount": 64
+    },
+    "item:createbigcannons:empty_autocannon_cartridge",
+    "item:create_radar:fire_controller",
+    "item:createbigcannons:traffic_cone",
+    "item:createbigcannons:cannon_mount",
+    "item:createbigcannons:cannon_builder",
+    "item:create_radar:radar_bearing",
+    "item:nuclearcraft:basic_processor",
+    "item:nuclearcraft:target_chamber_controller",
+    "item:immersivetechnology:steam_turbine",
+    {
+      "type": "fluid",
+      "id": "immersivepetroleum:crudeoil",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "thermal:crude_oil",
+      "amount": 0
+    },
+    "item:mekanism:fluorite_ore",
+    "item:extrabotany:aerialite_ingot",
+    "item:extrabotany:goblin_slayer_leggings{Damage:0}",
+    "item:nuclearcraft:basic_electromagnet",
+    "item:nuclearcraft:fusion_reactor_connector",
+    "item:nuclearcraft:fusion_core",
+    "item:crusty_chunks:trinitite",
+    "item:ftbquests:book"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [
+      "nuclearcraft:basic_barrel"
+    ],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

@@ -1,0 +1,658 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ages"
+	group: ""
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:watch_of_flowing_time"
+		tag: { }
+	}
+	id: "734B5E302FD1B8DF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:block/sign_factoryarea_texture"
+				}
+			}
+			id: "67290D46934A3C7D"
+			rewards: [{
+				id: "1E079035F2972AFE"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BBC7B190C06B9F1"
+				title: "Industrial Revolution"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67290D46934A3C7D"]
+			icon: "immersiveengineering:wirecoil_steel"
+			id: "22B19ECB8E64ABF7"
+			tasks: [{
+				id: "1667B9B4EC896224"
+				title: "Industrial Power Generation"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67290D46934A3C7D"]
+			icon: "immersiveengineering:plate_steel"
+			id: "0A69D705D83CE04C"
+			tasks: [{
+				id: "28FB22F944065897"
+				title: "Industrial Production"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67290D46934A3C7D"]
+			icon: "immersiveengineering:concrete"
+			id: "62FE79D5F91D9DED"
+			tasks: [{
+				id: "58C407800BB47863"
+				title: "Industrial Construction"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67290D46934A3C7D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tacz:textures/gun/slot/db_long.png"
+				}
+			}
+			id: "5ACAC46334630F40"
+			tasks: [{
+				id: "1420ABD8E77A25BA"
+				title: "Industrial Weaponry"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67290D46934A3C7D"]
+			icon: "botania:mana_pool"
+			id: "3BC59B2239144A76"
+			tasks: [{
+				id: "2664EC81A24B7F20"
+				title: "Industrial Magic"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67290D46934A3C7D"]
+			icon: "immersiveengineering:conveyor_splitter"
+			id: "624658E76440F180"
+			tasks: [{
+				id: "2F730934CAE14252"
+				title: "Industrial Automation"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67290D46934A3C7D"]
+			icon: "create:track_station"
+			id: "0876CE2DD667011E"
+			tasks: [{
+				id: "6F462C54C00D48D9"
+				title: "Industrial Transportation"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"624658E76440F180"
+				"0876CE2DD667011E"
+				"3BC59B2239144A76"
+				"22B19ECB8E64ABF7"
+				"5ACAC46334630F40"
+				"62FE79D5F91D9DED"
+				"0A69D705D83CE04C"
+			]
+			id: "458FE95CF64E86B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B7841A366BAFE30"
+				table_id: 8957025305761212542L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 175L
+				id: "38EDCBDDDD217FA3"
+				item: { Count: 175, id: "immersiveengineering:storage_uranium" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["458FE95CF64E86B6"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:block/radioisotope_core"
+				}
+			}
+			id: "02099734CFEEED4B"
+			rewards: [{
+				id: "3B533921691CC4D0"
+				item: "nuclearcraft:decay_generator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0011066FAE93D2E2"
+				title: "The Nuclear Age"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02099734CFEEED4B"]
+			icon: "nuclearcraft:fuel_uranium_leu_235"
+			id: "2AD0CBF71DB23E1F"
+			tasks: [{
+				id: "6E1FF1A468B9D755"
+				title: "Nuclear Power Generatior"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["02099734CFEEED4B"]
+			icon: "botania:terra_plate"
+			id: "1FD2D50400503B8A"
+			tasks: [{
+				id: "6C02FB7F522E254C"
+				title: "Nuclear Magic"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"02099734CFEEED4B"
+				"624658E76440F180"
+			]
+			icon: "immersivetechnology:steel_sheetmetal_tank"
+			id: "02B9A0C6ABBFD50C"
+			tasks: [{
+				id: "57DDD03918997080"
+				title: "Nuclear Automation"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"02099734CFEEED4B"
+				"0876CE2DD667011E"
+			]
+			id: "274A20D1BCC348A6"
+			tasks: [{
+				id: "200E000B3489BC23"
+				title: "Nuclear Transportation"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["02099734CFEEED4B"]
+			id: "2A442A46AE048565"
+			tasks: [{
+				id: "3CB65B5CF4B19470"
+				title: "Nuclear Production"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"02099734CFEEED4B"
+				"62FE79D5F91D9DED"
+			]
+			icon: "crusty_chunks:reenforced_concrete"
+			id: "684A87871B035CC2"
+			tasks: [{
+				id: "243648775E9715B3"
+				title: "Nuclear Construction"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"02099734CFEEED4B"
+				"5ACAC46334630F40"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tacz:textures/gun/slot/ak47.png"
+				}
+			}
+			id: "74A7B5D1973A8421"
+			tasks: [{
+				id: "7716C0FAB98B3780"
+				title: "Nuclear Weaponry"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2A442A46AE048565"
+				"2AD0CBF71DB23E1F"
+				"684A87871B035CC2"
+				"1FD2D50400503B8A"
+				"02B9A0C6ABBFD50C"
+				"74A7B5D1973A8421"
+				"274A20D1BCC348A6"
+			]
+			icon: "crusty_chunks:fission_bomb"
+			id: "7C2BAEF63549F247"
+			rewards: [{
+				count: 64
+				id: "05BE4FBE747A3FCF"
+				item: "nuclearcraft:foursmore"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "620F664AFFBEE938"
+					item: "crusty_chunks:fission_bomb"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "24BDEBD875423031"
+					item: { Count: 16, id: "crusty_chunks:trinitite_shard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "13B7A4DB1465E3A5"
+					item: { Count: 2, id: "create:redstone_link" }
+					type: "item"
+				}
+			]
+			title: "Trinity"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7C2BAEF63549F247"]
+			id: "3BBB9314600AD478"
+			tasks: [{
+				id: "6C82D9C64CB59B91"
+				title: "The Space Age"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3BBB9314600AD478"
+				"74A7B5D1973A8421"
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "tacz:m4a1"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "477721EDFB5C4F10"
+			tasks: [{
+				id: "5DCC38D35E705889"
+				title: "Space Weaponry"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"3BBB9314600AD478"
+				"684A87871B035CC2"
+			]
+			id: "6A683EDE2D97E5E3"
+			tasks: [{
+				id: "0ED2D6666C4BCA2A"
+				title: "Space Construction"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3BBB9314600AD478"]
+			id: "57371FD4B064C0E6"
+			tasks: [{
+				id: "40C2C5857EAF3694"
+				title: "Space Production"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3BBB9314600AD478"]
+			icon: "immersivetechnology:steam_turbine"
+			id: "6A6F41005FCA34F5"
+			tasks: [{
+				id: "6551119C9DAFAF88"
+				title: "Space Power Generation"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3BBB9314600AD478"]
+			icon: "botania:alfheim_portal"
+			id: "3055E33359340DC9"
+			tasks: [{
+				id: "723858E922B4D6C0"
+				title: "Space Magic"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"3BBB9314600AD478"
+				"02B9A0C6ABBFD50C"
+			]
+			icon: "enderio:item_conduit"
+			id: "3C4AB915C812C554"
+			tasks: [{
+				id: "18E2AE33039D7D82"
+				title: "Space Automation"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"3BBB9314600AD478"
+				"274A20D1BCC348A6"
+			]
+			id: "53CDAB222B89DE44"
+			tasks: [{
+				id: "3FE3613BD69680AC"
+				title: "Space Transportation"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"6A6F41005FCA34F5"
+				"57371FD4B064C0E6"
+				"6A683EDE2D97E5E3"
+				"53CDAB222B89DE44"
+				"477721EDFB5C4F10"
+				"3C4AB915C812C554"
+				"3055E33359340DC9"
+			]
+			icon: "nuclearcraft:fusion_core"
+			id: "6B1A6D95B7C95D51"
+			rewards: [{
+				id: "5D99000171752BDA"
+				type: "xp_levels"
+				xp_levels: 500
+			}]
+			tasks: [
+				{
+					id: "0413D7F9247886AC"
+					item: "nuclearcraft:fusion_core"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "22F42C5E997BFB32"
+					item: { Count: 12, id: "nuclearcraft:fusion_reactor_connector" }
+					type: "item"
+				}
+				{
+					count: 88L
+					id: "4C987B14F93CE98B"
+					item: { Count: 88, id: "nuclearcraft:basic_electromagnet" }
+					type: "item"
+				}
+				{
+					count: 104L
+					id: "73AF152A961161A7"
+					item: { Count: 104, id: "nuclearcraft:fusion_reactor_casing_glass" }
+					type: "item"
+				}
+			]
+			title: "Fusion Reactor"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6B1A6D95B7C95D51"]
+			icon: "ae2:controller"
+			id: "622CE6C64607BFF4"
+			rewards: [{
+				id: "657A8FA19B2C4C88"
+				item: "nuclearcraft:californium_rtg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D2A72E0452AE8EE"
+				title: "The Interstellar Age"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["622CE6C64607BFF4"]
+			icon: "draconicevolution:reactor_stabilizer"
+			id: "4FCED14181BDFEF7"
+			tasks: [{
+				id: "0D9E65F761CC68F5"
+				title: "Interstellar Power Generation"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["622CE6C64607BFF4"]
+			icon: "projecte:condenser_mk2"
+			id: "7384239FE62D114C"
+			tasks: [{
+				id: "0BECBFA8492CCB32"
+				title: "Interstellar Production"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"622CE6C64607BFF4"
+				"6A683EDE2D97E5E3"
+			]
+			icon: "enderio:xp_obelisk"
+			id: "4028811E5D5FB622"
+			tasks: [{
+				id: "2F1C28E2EEDACE33"
+				title: "Interstellar Construction"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"622CE6C64607BFF4"
+				"477721EDFB5C4F10"
+			]
+			id: "1E8EC423AE626936"
+			tasks: [{
+				id: "17A64FDFE9145E1A"
+				title: "Interstellar Weaponry"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["622CE6C64607BFF4"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:philosophers_stone"
+				tag: { }
+			}
+			id: "46E0C84E25340C1E"
+			tasks: [{
+				id: "4C906FC6D73A9827"
+				title: "Interstellar Magic"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"622CE6C64607BFF4"
+				"3C4AB915C812C554"
+			]
+			icon: "ae2:crafting_terminal"
+			id: "5C422D107FC676ED"
+			tasks: [{
+				id: "636AB6D2F49ACA9A"
+				title: "Interstellar Automation"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"622CE6C64607BFF4"
+				"53CDAB222B89DE44"
+			]
+			id: "122AB261D59BB66F"
+			tasks: [{
+				id: "0CAA97B08C1CC9BA"
+				title: "Interstellar Transportation"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"46E0C84E25340C1E"
+				"4FCED14181BDFEF7"
+				"7384239FE62D114C"
+			]
+			icon: "draconicevolution:reactor_core"
+			id: "75FD44D458FA17A2"
+			rewards: [{
+				id: "63E8AAE34BC8853D"
+				type: "xp_levels"
+				xp_levels: 1000
+			}]
+			tasks: [
+				{
+					id: "5CBDFE936FE856CE"
+					item: "draconicevolution:reactor_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2B1B85283AA02599"
+					item: { Count: 4, id: "draconicevolution:reactor_stabilizer" }
+					type: "item"
+				}
+				{
+					id: "2E8F38F0643A0295"
+					item: "draconicevolution:reactor_injector"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0AC1B6C627A7883E"
+					item: { Count: 2, id: "draconicevolution:flux_gate" }
+					type: "item"
+				}
+			]
+			title: "Draconic Reactor"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"1E8EC423AE626936"
+				"5C422D107FC676ED"
+				"4028811E5D5FB622"
+				"122AB261D59BB66F"
+				"75FD44D458FA17A2"
+			]
+			icon: "extendedcrafting:ultimate_singularity"
+			id: "734EC6BD5BC3619B"
+			tasks: [{
+				id: "4934390336CD375B"
+				title: "Creative Items"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+	]
+	title: "Ages"
+}

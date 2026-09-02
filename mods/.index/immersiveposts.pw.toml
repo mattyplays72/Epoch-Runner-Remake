@@ -1,0 +1,17 @@
+filename = 'ImmersivePosts-1.20.1-4.3.0-15.jar'
+name = 'Immersive Posts'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Immersive Posts 4.3.0-15'
+
+[download]
+hash = 'efa20103d8cd3b2d97e1e11cd8dd6c72c7317bd8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7434158
+project-id = 314645

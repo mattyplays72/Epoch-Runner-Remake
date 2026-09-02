@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_info"
+	group: ""
+	icon: "ftbquests:book"
+	id: "3D502DAFD34DC89F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to Epoch Runner!"
+				""
+				"Here you will be taken on a journey through the ages starting with the Industrial Revolution and ending with the Interstellar Age! The modpack attempts to remain loosly historically acurate for the beginning ages with the addition of a little magic in the form of Astral Sorcery."
+				""
+				"This questbook does not cover every feature of the modpack. However, you will need to follow the questbook to some degree as it is the method by which you unlock new Ages. Any feedback is appreciated and don't hesitate to mention bugs or glitches that need fixing."
+				""
+				"Regarding quests where I mention that I'm not familiar with something - feel free to fill me in on how something like that works so that I can add it to the Questbook."
+				""
+				"You'll need to rebind some of the keybinds for various features in the modpack. If you run into a scenario where you can't make some GUI or something work, check your keybinds."
+				""
+				"Good luck!"
+			]
+			icon: "minecraft:writable_book"
+			id: "0A6482C6987511E9"
+			tasks: [{
+				id: "149568E0908F16B5"
+				title: "Modpack Info"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A6482C6987511E9"]
+			description: [
+				"Ah yes, extreme weather. Possibly my favorite part of this modpack. Your location will determine the frequency of severe storms such as Tornados and Tropical Cyclones. Storms form over large bodies of water, so the closer you are to an ocean, the more weather you will get."
+				""
+				"A Weather Radar and Weather Deflector are extremely useful. You can set the Weather Deflector to prevent just block damage, or you can make it kill deadly storms."
+				""
+				"BE WARNED: Torandos/Tropical Cyclones can and will destroy above-ground builds unless properly protected. "
+				"DON'T FORGET to put a roof over your animals or they will get picked up by Torandos and probably die. Speaking from personal experience."
+				""
+				"DO NOT go into Nuclear Wasteland biomes without proper Rad Shielding as they are highly radioactive."
+				""
+				"There are also seasons that affect what plants can grow and your temperature, but that isn't as epic as weather."
+				""
+				"Good luck"
+			]
+			icon: "weather2:weather_item"
+			id: "52245D1D1BC8E2B9"
+			rewards: [{
+				id: "5AFBAA864F06B9D0"
+				item: "weather2:weather_item"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ECF816AB57FF16C"
+				title: "Enviroment Info"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A6482C6987511E9"]
+			description: [
+				"Each biome has it's own assigned temperature. Deserts are hot. Snowy Taigas are cold. If you spend too long in a hot or cold biome without proper gear, you get hypothermia or hyperthermia. The Nether is very hot. The End is slightly cooler than average."
+				""
+				"What the current season is also determines your temperature. Being in a cool biome duing the summer will help you not overheat. But being in a desert during the summer is not advised. The same goes for cold biomes and winter."
+				""
+				"You can make various different armor sets to help with temperature management. You can also make heaters and coolers. An early-game way of staying warm is with a campfire. An easy way to cool off quickly is to sit in water."
+				""
+				"Speaking of water, you need to drink it. Water that isn't purified will give you the Thirst debuff (the water equivalent of Hunger). You can purify water by \"boiling\" it in a furnace. You can refill water bottles from Blood Pools in the nether."
+				""
+				"Good luck"
+			]
+			icon: "toughasnails:thermometer"
+			id: "023CE4E9606F4B2F"
+			rewards: [{
+				count: 8
+				id: "3F4C374241D62331"
+				item: "toughasnails:purified_water_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3924FCDEDE30284C"
+				title: "Temperature and Thirst Management Info"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A6482C6987511E9"]
+			description: [
+				"Pollution will be produced by virtually every machine that burns some kind of fuel. If pollution levels become too high in a specific chunk, you will start to get debuffs that eventually result in Poison and Wither."
+				""
+				"You will need to find ways of cleaning up pollution using various filters. If the pollution becomes too great in a specfic area, you can always leave and come back when you have the ability to clean the pollution."
+				""
+				"I have alterned the rate at which pollution is created to account for server uptime."
+				""
+				"Air pollution will not be your only concern. You must also take into account radiation. Radiation will spread throughout contaminated chunks and irradiate all entites within them. There are ways of removing and midigating radiation, which are covered in later questbook chapters."
+				""
+				"Good luck"
+			]
+			icon: {
+				Count: 1
+				id: "crusty_chunks:gas_mask_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6686EE6B82378753"
+			rewards: [{
+				id: "6E2CC9EE0303114E"
+				item: "nuclearcraft:radaway_slow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D5B266367A33977"
+				title: "Pollution Info"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6686EE6B82378753"
+				"52245D1D1BC8E2B9"
+				"023CE4E9606F4B2F"
+			]
+			icon: "minecraft:map"
+			id: "603B97CD0411D228"
+			tasks: [
+				{
+					id: "3C6EF28718547F5B"
+					title: "Start"
+					type: "checkmark"
+				}
+				{
+					id: "4864DC2BD7A65354"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64D59C87AAD44D1B"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B1305391197D731"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "Basic Info"
+}

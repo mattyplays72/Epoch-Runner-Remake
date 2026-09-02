@@ -1,0 +1,24 @@
+{
+	version: 1
+	uuid: "f61d1d8c56db4abbaa833d078b506d29"
+	name: "mattydaminer2#f61d1d8c"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		38151E83EC8B7185: 1L
+	}
+	started: {
+		38151E83EC8B7185: 1776199525562L
+		0000000000000001: 1776199525562L
+		7D16C8CE9DB05DA7: 1776199525562L
+		7870AAA7FC33D8C0: 1776199525562L
+	}
+	completed: {
+		38151E83EC8B7185: 1776199525566L
+		7870AAA7FC33D8C0: 1776199525566L
+	}
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}

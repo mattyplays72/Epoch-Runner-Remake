@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weaponry"
+	group: ""
+	id: "3B49C266F374EAA0"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "Weaponry"
+}

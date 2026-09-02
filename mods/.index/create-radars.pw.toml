@@ -1,0 +1,17 @@
+filename = 'create_radar-0.4.3+mc1.20.1.jar'
+name = 'Create: Radars'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_radar-0.4.3+mc1.20.1.jar'
+
+[download]
+hash = 'c30125621efd4fd98b3d7689be3f6b63c0ed9a09'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7901595
+project-id = 1152836

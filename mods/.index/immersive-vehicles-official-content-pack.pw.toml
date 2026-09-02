@@ -1,0 +1,16 @@
+filename = 'MTS Official Pack-1.20.1-V28.2.jar'
+name = 'MTS/Immersive Vehicles - Official Content Pack [OCP]'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ec5a2419c18f55e925d0a9afaaf06b5a044883b5235b128fc0b943e72d56dcaa77ab4d9c621fe19f6a08d3da3589802be90e1be0e723b090b68b8d5f257383ad'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/C7TiPPJz/versions/jUXaG8Wt/MTS Official Pack-1.20.1-V28.2.jar'
+
+[update.modrinth]
+mod-id = 'C7TiPPJz'
+version = 'jUXaG8Wt'

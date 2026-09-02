@@ -1,0 +1,105 @@
+[00:05:55] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[00:05:55] [INIT] Loaded plugins:
+[00:05:55] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[00:05:55] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[00:05:55] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[00:05:55] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[00:05:55] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[00:05:55] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
+[00:05:55] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[00:05:55] [INIT] - eldritch.cookie.kubejs.mysticalagriculture.KubeJSMysticalAgricultureKJSPlugin
+[00:05:55] [INIT] - io.github.lounode.extrabotany.common.integration.kubejs.KubeJSExtrabotanyPlugin
+[00:05:55] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[00:05:55] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[00:05:55] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[00:05:55] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[00:05:55] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[00:05:55] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[00:05:55] [INIT] - ru.blatfan.kubejsprojecte.kubejs.KubeJSProjectEPlugin
+[00:05:55] [INIT] - dev.sorin.kubejsextendedcrafting.KubejsExtendedCraftingPlugin
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/earlyrecipe_immersiveengineering_heavy_engineering.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/earlyrecipe_immersiveengineering_light_engineering.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/earlyrecipe_immersiveengineering_rs_engineering.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/recipe_extendedcrafting_basic_table.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/recipe_immersiveengineering_heavy_engineering.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/recipe_immersiveengineering_light_engineering.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/recipe_immersiveengineering_rs_engineering.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/recipe_projecte_dark_matter.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_createbigcannons_mixing_alloy_steel.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_createbigcannons_steel_ingot_from_block.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_createbigcannons_steel_ingot_from_nuggets.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_crusty_chunks_rusty_block_smelt.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_crusty_chunks_steel_block_ore_recipe.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_extendedcrafting_advanced_component.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_extendedcrafting_advanced_table.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_extendedcrafting_basic_table.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_immersiveengineering_crafting_heavy_engineering.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_immersiveengineering_crafting_light_engineering.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_immersiveengineering_crafting_rs_engineering.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_mekanism_nuggets_steel.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_mekanism_processing_steel_enriched_iron_to_dust.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_mekanism_processing_steel_ingot_from_block.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_mekanism_processing_steel_ingot_from_dust_blasting.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_mekanism_processing_steel_ingot_from_dust_smelting.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_mekanism_processing_steel_ingot_from_nuggets.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_mekanism_processing_steel_ingot_to_dust.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_mekanism_storage_blocks_steel.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_minecraft_nuclearcraft_steel_dust.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_minecraft_steel_from_block.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_minecraft_steel_from_nugget.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_projecte_dark_matter.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_bucket.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_axe.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_boots.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_chestplate.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_crowbar.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_door.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_helmet.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_hoe.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_horse_armor.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_ingot.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_leggings.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_pickaxe.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_shovel.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_sword.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_iron_trapdoor.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_shears.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_steel_axe.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_steel_boots.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_steel_chestplate.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_steel_helmet.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_steel_hoe.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_steel_leggings.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_steel_pickaxe.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_steel_shears.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_blast_furnace_blasting_steel_sword.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_steel_block_from_steel_ingot.js in 0.001 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_steel_ingot.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_railcraft_steel_ingot_from_steel_nugget.js in 0.0 s
+[00:05:56] [INFO] Loaded script server_scripts:customrecipegui/generated/remove_id_warium_ponder_jei_alloy_furnace_steel_ingot.js in 0.001 s
+[00:05:56] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[00:05:56] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[00:05:56] [INFO] Loaded 61/61 KubeJS server scripts in 0.034 s with 0 errors and 0 warnings
+[00:05:56] [INFO] Scripts loaded
+[00:05:56] [INFO] Initializing recipe event...
+[00:05:56] [INFO] Processing recipes...
+[00:05:56] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_cherry[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:cherry_log\"}
+[00:05:56] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_jungle[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:jungle_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:05:56] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:oak_log\"}
+[00:05:56] [WARN] Failed to parse recipe 'nuclearcraft:extractor/thermal_honeycomb[nuclearcraft:extractor]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:05:57] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_dark_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:dark_oak_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:05:57] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_spruce[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:spruce_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:05:57] [WARN] Failed to parse recipe 'pamhc2foodcore:caramelcupcakeitem_x4[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:05:57] [WARN] Failed to parse recipe 'pamhc2foodcore:melonpieitem[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:05:57] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_birch[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:birch_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:05:57] [WARN] Failed to parse recipe 'pamhc2foodcore:honeymuffinitem[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:05:57] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_rubberwood[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"thermal:rubberwood_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:05:57] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_acacia[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:acacia_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:05:57] [INFO] Found 21005 recipes in 234.3 ms
+[00:05:57] [INFO] Posted recipe events in 8.671 ms
+[00:05:57] [WARN] Error parsing recipe pamhc2foodcore:honeymuffinitem[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:tool_bakeware"},{"tag":"forge:honey"},{"tag":"forge:batter"}],"result":{"item":"pamhc2foodcore:honeymuffinitem","count":1}}: Unknown item 'pamhc2foodcore:honeymuffinitem'
+[00:05:57] [WARN] Error parsing recipe pamhc2foodcore:caramelcupcakeitem_x4[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:tool_mixingbowl"},{"tag":"forge:caramel"},{"tag":"forge:dough"}],"result":{"item":"pamhc2foodcore:caramelcupcakeitem","count":4}}: Unknown item 'pamhc2foodcore:caramelcupcakeitem'
+[00:05:57] [WARN] Error parsing recipe create_radar:sequenced_assembly/network_filterer[create:sequenced_assembly]: {"type":"create:sequenced_assembly","ingredient":{"item":"create_radar:data_link"},"loops":1,"results":[{"chance":120.0,"item":"create_radar:network_filterer"},{"item":"create_radar:data_link"}],"sequence":[{"type":"create:deploying","ingredients":[{"item":"create_radar:incomplete_network_controller"},{"tag":"forge:plates/gold"}],"results":[{"item":"create_radar:incomplete_network_controller"}]},{"type":"create:deploying","ingredients":[{"item":"create_radar:incomplete_network_controller"},{"item":"create:electron_tube"}],"results":[{"item":"create_radar:incomplete_network_controller"}]},{"type":"create:pressing","ingredients":[{"item":"create_radar:incomplete_network_controller"}],"results":[{"item":"create_radar:incomplete_network_controller"}]}],"transitionalItem":{"item":"create_radar:incomplete_network_controller"}}: Unknown item 'create_radar:incomplete_network_controller'
+[00:05:57] [WARN] Error parsing recipe pamhc2foodcore:melonpieitem[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:tool_bakeware"},{"tag":"forge:sugar"},{"tag":"forge:crops/melon"},{"tag":"forge:dough"}],"result":{"item":"pamhc2foodcore:melonpieitem","count":1}}: Unknown item 'pamhc2foodcore:melonpieitem'
+[00:05:57] [INFO] Added 8 recipes, removed 52 recipes, modified 0 recipes, with 4 failed recipes in 65.42 ms
+[00:05:58] [INFO] Server resource reload complete!
