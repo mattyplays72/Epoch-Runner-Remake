@@ -80,6 +80,15 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "railcraft:frame",
+      "amount": 64
+    },
+    "item:railcraft:charge_motor",
+    "item:railcraft:electric_track",
+    "item:railcraft:steam_oven",
+    "item:railcraft:charge_terminal",
     "item:mts:mtsofficialpack.scout_maroon",
     "item:create:steam_whistle",
     "item:mts:mtsofficialpack.bell47g",

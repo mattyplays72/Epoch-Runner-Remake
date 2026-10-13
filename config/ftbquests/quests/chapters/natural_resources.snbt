@@ -141,13 +141,16 @@
 			y: 2.5d
 		}
 		{
+			description: ["Everything here is fairly common and you'll find in the overworld, try and collect as much as you see as most ores have a use although some are later down the line than others"]
 			icon: "minecraft:iron_ore"
 			id: "58CD5DB62499E6C0"
+			subtitle: "The basics"
 			tasks: [{
 				id: "31019192D7A0BDCF"
 				title: "Common Metals"
 				type: "checkmark"
 			}]
+			title: "Common Metals"
 			x: 4.0d
 			y: -1.0d
 		}

@@ -6,6 +6,89 @@
 	id: "73C3722068F59290"
 	order_index: 8
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: ["Rails are going to be your first option for getting around fast pre-petroleum, this pack has railcraft which makes crafting lots of them very easy, as well as making it so you don't need powered rails constantly at the cost of having to either electrify your rails, or run steam locomotives which require coal and water"]
+			id: "7F34BBD786336129"
+			subtitle: "Getting on track"
+			tasks: [{
+				count: 32L
+				id: "3D5B2F7B9E61A510"
+				item: "minecraft:rail"
+				type: "item"
+			}]
+			title: "Rails"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7F34BBD786336129"]
+			description: ["This will be by far your best bet early on for locomotive and is much cheaper to setup than electric alternatives, if you want to automate it you will need a fluid loader and an item loader above some locking tracks, I would recommend watching a guide for railcraft to learn more"]
+			id: "52685478A228B180"
+			require_sequential_tasks: false
+			subtitle: "Your first train"
+			tasks: [{
+				id: "72681E9FB9C130CA"
+				item: {
+					Count: 1
+					id: "railcraft:steam_locomotive"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7F34BBD786336129"]
+			description: ["Okay so to set this up you require a lot more infrastructure, you will need specific types of track to power the locomotive, and to get power into said tracks place them above frames from the same mod, and then send your choice of wire directly into the frame"]
+			id: "247E2D43AE97A5B1"
+			subtitle: "Electrical"
+			tasks: [
+				{
+					id: "4199232F72F422E4"
+					item: {
+						Count: 1
+						id: "railcraft:electric_locomotive"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "453C3AA97341E49F"
+					item: "railcraft:electric_track"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "42A4D3FEB4D938A7"
+					item: { Count: 4, id: "railcraft:frame" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7F34BBD786336129"]
+			description: ["Crowbars are fairly important in railcraft, you use them not only to quickly pickup tracks, but change track modes, create junctions, and most importantly, connect your locomotives to carts"]
+			id: "52D56E00F4030546"
+			subtitle: "A conductors best friend"
+			tasks: [{
+				id: "04C66D6F53A66948"
+				item: {
+					Count: 1
+					id: "railcraft:iron_crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+	]
 	title: "Transportation"
 }

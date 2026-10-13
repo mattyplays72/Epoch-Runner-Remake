@@ -22,6 +22,7 @@
 #2848C0 minecraft:cobbled_deepslate
 #855DC7 kubejs:computer_engineering_block
 #DA238F immersiveengineering:concrete_brick
+#DDA1D0 enderio:conduit
 #E39FA1 create:copper_valve_handle
 #468304 minecraft:crafting_table
 #73CA69 create:creative_motor
@@ -30,11 +31,13 @@
 #B666A8 minecraft:dispenser
 #5B644A immersivepetroleum:distillation_tower
 #CA208F adpother:dust
+#AAB79B railcraft:electric_track
 #750FF1 immersiveposts:fence_electrum
 #DCBBA2 create_radar:fire_controller
 #FD6C49 crusty_chunks:fission_bomb
 #2AC6A8 immersivepetroleum:flarestack
 #C40C8B immersiveengineering:fluid_pipe
+#55615F railcraft:frame
 #2DC94B minecraft:furnace
 #1A526A crusty_chunks:fusion_bomb
 #B6292F mbd2:gas_centrifuge
