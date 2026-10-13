@@ -912,8 +912,15 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2026-09-03 14:46:45 +0100",
+      "minecraft:skeleton": "2026-09-03 14:46:31 +0100",
+      "minecraft:vindicator": "2026-09-03 14:46:44 +0100",
       "minecraft:creeper": "2025-12-23 20:38:04 +0000",
-      "minecraft:husk": "2025-12-23 20:39:29 +0000"
+      "minecraft:witch": "2026-09-03 14:46:56 +0100",
+      "minecraft:husk": "2025-12-23 20:39:29 +0000",
+      "minecraft:silverfish": "2026-09-03 14:46:58 +0100",
+      "minecraft:stray": "2026-09-03 14:46:36 +0100",
+      "minecraft:vex": "2026-09-03 14:49:43 +0100"
     },
     "done": false
   },
@@ -2798,6 +2805,288 @@
   "voltaic:dispenseguidebook": {
     "criteria": {
       "SpawnIn": "2026-04-14 23:52:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2026-09-03 14:48:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "notreepunching:clay_tool": {
+    "criteria": {
+      "has_item": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/wood_gear": {
+    "criteria": {
+      "has_ingredient": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/torch": {
+    "criteria": {
+      "has_stick": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/wood_gear_corner": {
+    "criteria": {
+      "has_ingredient": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "notreepunching:story/find_sticks": {
+    "criteria": {
+      "has_stick": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "notreepunching:story/root": {
+    "criteria": {
+      "has_sticks": "2026-09-03 14:49:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2026-09-03 14:49:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2026-09-03 14:49:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2026-09-03 14:49:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2026-09-03 14:49:37 +0100"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/conveyor_basic": {
+    "criteria": {
+      "has_leather": "2026-09-03 14:49:37 +0100"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/villager_detector": {
+    "criteria": {
+      "has_leather": "2026-09-03 14:49:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2026-09-03 14:49:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2026-09-03 14:49:37 +0100"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/tools/empty_leather_canteen": {
+    "criteria": {
+      "has_leather": "2026-09-03 14:49:37 +0100"
+    },
+    "done": true
+  },
+  "adpother:recipes/tools/diamond_vacuum_bag": {
+    "criteria": {
+      "has_item": "2026-09-03 14:49:38 +0100"
+    },
+    "done": true
+  },
+  "adpother:recipes/tools/iron_vacuum_bag": {
+    "criteria": {
+      "has_item": "2026-09-03 14:49:38 +0100"
+    },
+    "done": true
+  },
+  "notreepunching:leather_from_chestplate_with_knife": {
+    "criteria": {
+      "has_item": "2026-09-03 14:49:38 +0100"
+    },
+    "done": true
+  },
+  "adpother:recipes/tools/gold_vacuum_bag": {
+    "criteria": {
+      "has_item": "2026-09-03 14:49:38 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_cannon_chamber": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/powder_charge": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "crusty_chunks:powder_types": {
+    "criteria": {
+      "powder_types_0": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/machine_gun_round": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/log_cannon_chamber": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/fixed_cannon_mount": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_mount": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_drop_mortar_end_mirrored": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/pair_of_cannon_wheels": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_cannon_end": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/misc/tiny_tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_carriage": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_drop_mortar_end": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/log_cannon_end": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/gunpowder_pinch": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/empty_powder_charge": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-09-03 14:49:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2026-09-03 14:49:54 +0100"
+    },
+    "done": true
+  },
+  "weather2:recipes/misc/tornado_siren": {
+    "criteria": {
+      "has_sensor_item": "2026-09-03 15:30:54 +0100"
     },
     "done": true
   },

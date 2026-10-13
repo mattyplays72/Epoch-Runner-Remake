@@ -1,0 +1,21 @@
+filename = 'engineersdecor-1.3.33.jar'
+name = "Engineer's Decor Re:Vived"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.33'
+
+[download]
+hash = '0103d64d4473a17617bacb9a8555e050601d4cd6943b3bac7832a02c0577ae3d63203515283de1d9cfec3dbd67f068238ef229572a6f068ca0a7e42206bd825e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hTzwY5Z7/versions/XyNNTylO/engineersdecor-1.3.33.jar'
+
+[update.modrinth]
+mod-id = 'hTzwY5Z7'
+version = 'XyNNTylO'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tIm2nV03'
+type = 'REQUIRED'

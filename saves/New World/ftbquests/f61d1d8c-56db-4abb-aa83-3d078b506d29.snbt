@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "f61d1d8c56db4abbaa833d078b506d29"
+	name: "mattydaminer2#f61d1d8c"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}

@@ -7,8 +7,10 @@
 #F6CE59 create_radar:auto_yaw_controller
 #2A631D nuclearcraft:basic_barrel
 #B831E2 extendedcrafting:basic_table
+#45BFC5 spore:biomass_block
 #C9CBB9 minecraft:blackstone
 #3B29A2 immersivetechnology:boiler_solid
+#350785 jeg:bright_dynamic_light
 #2332A2 createbigcannons:bronze_autocannon_barrel
 #0CA851 createbigcannons:bronze_autocannon_breech
 #9D934A createbigcannons:bronze_autocannon_recoil_spring
@@ -18,6 +20,7 @@
 #2994FF createbigcannons:cast_iron_autocannon_breech
 #213292 nuclearcraft:centrifuge
 #2848C0 minecraft:cobbled_deepslate
+#855DC7 kubejs:computer_engineering_block
 #DA238F immersiveengineering:concrete_brick
 #E39FA1 create:copper_valve_handle
 #468304 minecraft:crafting_table
@@ -41,6 +44,7 @@
 #BE54EF tacz:gun_smith_table
 #B6A923 immersiveengineering:heavy_engineering
 #1A0827 minecraft:hopper
+#6DAC65 sporewithin:human_remains
 #480121 nuclearcraft:isotope_separator
 #1F55F1 crusty_chunks:jet_exhaust
 #5FFFB9 minecraft:jukebox
@@ -78,7 +82,10 @@
 #DC3458 minecraft:stone
 #72EC8F immersiveengineering:storage_steel
 #7B98D6 adpother:sulfur
+#988EB7 jeg:supply_drop_crate
+#0FB0E6 weather2:tornado_sensor
 #E39A1D weather2:tornado_siren
 #1FBE53 createbigcannons:traffic_cone
 #87BAF4 minecraft:tuff
 #A3F9C9 weather2:weather_deflector
+#D686E8 weather2:weather_forecast
