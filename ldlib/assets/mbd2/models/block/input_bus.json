@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "mbd2:block/input_bus",
+    "side": "mbd2:block/storage_steel",
+    "top": "mbd2:block/storage_steel"
+  }
+}

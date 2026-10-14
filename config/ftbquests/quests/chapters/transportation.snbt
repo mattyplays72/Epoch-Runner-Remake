@@ -3,6 +3,11 @@
 	default_quest_shape: ""
 	filename: "transportation"
 	group: ""
+	icon: {
+		Count: 1
+		id: "railcraft:steam_locomotive"
+		tag: { }
+	}
 	id: "73C3722068F59290"
 	order_index: 8
 	quest_links: [ ]

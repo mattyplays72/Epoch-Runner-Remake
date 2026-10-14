@@ -24,13 +24,14 @@
 			]
 			icon: "minecraft:writable_book"
 			id: "0A6482C6987511E9"
+			size: 2.0d
 			tasks: [{
 				id: "149568E0908F16B5"
 				title: "Modpack Info"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0A6482C6987511E9"]
@@ -176,6 +177,43 @@
 			]
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["0A6482C6987511E9"]
+			description: [
+				"Almost all create crafting has been removed and given recipes through other ways without going through create"
+				""
+				"The intention of doing so is to make a pack with the positives of having create (trains elevators and mechanical stuff in general) without being yet another create based pack that forces you to do the mod for another billionth time"
+			]
+			icon: "create:wrench"
+			id: "05698B47C0D7E8B8"
+			subtitle: "Kind of?"
+			tasks: [{
+				id: "2519EB2615D67EBD"
+				title: "Create?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A6482C6987511E9"]
+			description: ["In this pack we use a mod called no tree punching, go find some flint, and some sticks, make yourself a knife and break grass with it and get yourself a flint pickaxe and axe to get your first bits of stone and wood"]
+			icon: {
+				Count: 1
+				id: "notreepunching:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3F95AEB071D05811"
+			tasks: [{
+				id: "06FC0AAF283A4DF0"
+				title: "No Tree Punching"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
 		}
 	]
 	title: "Basic Info"

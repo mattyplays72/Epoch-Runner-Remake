@@ -3090,5 +3090,35 @@
     },
     "done": true
   },
+  "spore:gastgaber": {
+    "criteria": {
+      "hurt_infected": "2026-10-13 21:09:10 +0100"
+    },
+    "done": true
+  },
+  "spore:inf_mobs": {
+    "criteria": {
+      "hurt_infected": "2026-10-13 21:09:10 +0100"
+    },
+    "done": true
+  },
+  "spore:reaper": {
+    "criteria": {
+      "hurt_infected": "2026-10-13 21:09:26 +0100"
+    },
+    "done": true
+  },
+  "spore:spore": {
+    "criteria": {
+      "pick_up_scanner": "2026-10-13 21:09:33 +0100"
+    },
+    "done": true
+  },
+  "spore:inebriater": {
+    "criteria": {
+      "hurt_infected": "2026-10-13 21:09:50 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
